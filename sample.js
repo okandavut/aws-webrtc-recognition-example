@@ -1,4 +1,3 @@
-// SERVER FOR A REALEYES HOMEWORK
 // THIS SERVER DOES A PUTOBJECT AND DETECTFACES
 var AWS = require('aws-sdk');
 var uuid = require('node-uuid');
@@ -37,7 +36,7 @@ var keyName = 'photofrombucket.jpg';
 var faceParams={
  Image: {
         S3Object: {
-        Bucket: "realeyeshomework",
+        Bucket: "testBucket",
         Name:keyName
         }
       },
@@ -50,7 +49,7 @@ var faceParams={
 app.post('/addPhotoDetectFace', function (req, res) {
   //Convert base64 to Buffer Array for putobject function
  var base64data=new Buffer(req.body.photo.replace(/^data:image\/\w+;base64,/, ""),'base64');
-  var params = {Bucket:  "realeyeshomework", Key:keyName, Body: base64data};
+  var params = {Bucket:  "testBucket", Key:keyName, Body: base64data};
    s3.putObject(params, function(err, data) {
      if (err)
        console.log(err)
