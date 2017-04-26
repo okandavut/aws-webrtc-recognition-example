@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="description" content="WebRTC code samples">
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+  <meta itemprop="description" content="Client-side WebRTC code samples">
+  <meta itemprop="image" content="../../../images/webrtc-icon-192x192.png">  <meta itemprop="name" content="WebRTC code samples">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta id="theme-color" name="theme-color" content="#ffffff">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <h1>Realeyes homework</h1>
+    <div id="non-capable">
+      <p>You should be equipped with a webcam and allow us its usage</p>
+    </div>
+    <div id="capable">
+      <div class="camera-denied">
+        <h2>To continue exercise please refresh the page and allow your webcam!</h2>
+      </div>
+      <div class="camera-allowed">
+        <div class="video" style="float:left;">
+        <video autoplay style="width:200px;height:200px"></video>
+          <button id="captureBtn">Recognize</button>
+   
+        </div>
+        <div class="capture">
+         <canvas id="myCanvas" style="width:200px;height:200px"></canvas>
+          <div id="analyzisWrapper">
+       <h1>Analyzis</h1>
+            <pre id="analyzis">Analyzis result should show up here...</pre>
+              <div id="response"></div>
+          </div>
+        </div>
+          
+      
+      </div>
+    </div>
+      <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  </body>
+</html>
+<script src="webcam.js">
+
+</script>
