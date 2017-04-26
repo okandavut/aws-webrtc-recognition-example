@@ -14,7 +14,7 @@ Technologies:
 Project Setup
 -------------
  1. Setup AWS CLI : [Aws CLI Installation](http://docs.aws.amazon.com/cli/latest/userguide/installing.html)
- 2. Configure AWS from command line:  $ aws configure AWS    
+ 2. Configure AWS from command line:  `aws configure AWS`    
  3. Enter AWS informations : 
  
  
