@@ -21,9 +21,9 @@ Project Setup
  
     [![image](http://i.hizliresim.com/GBJ90Z.png)](http://hizliresim.com/GBJ90Z)     
     
-    
- 4. Setup NodeJS on computer.
- 5. Go project folder in command line and run this command: `npm install`
- 6. After run npm install run this command : `node sample.js`
- 6. Run Index.html on browser..
+ 4. Create bucket on AWS . Bucket Name : "testBucket" .[Create a Bucket](http://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html)
+ 5. Setup NodeJS on computer.
+ 6. Go project folder in command line and run this command: `npm install`
+ 7. After run npm install run this command : `node sample.js`
+ 8. Run Index.html on browser..
 
