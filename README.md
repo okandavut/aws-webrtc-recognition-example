@@ -2,9 +2,9 @@
 Simple Detect Face Example With AWS Rekognition and WebRTC Library
 -------------
 This project is a simple face detection example. 
-
+-------------
 [![image](http://i.hizliresim.com/7qL6DN.png)](http://hizliresim.com/7qL6DN)
-
+-------------
 
 Technologies: 
 
